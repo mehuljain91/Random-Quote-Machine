@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(159, 188, 199);
+	text-align: center;
+	height: 95.8vh;
+	padding-top: 120px;
+}
+
+#quote-box {
+	margin: 20px auto;
+	padding: 20px;
+	width: 500px;
+	height: 200px;
+	background-color: rgb(46, 32, 58);
+	color: white;
+	border-radius: 7px;
+	letter-spacing: 1.8px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+
+.quote-author {
+	display: block;
+	float: right;
+	margin: 10px;
+}
+
+button {
+	display: block;
+	margin: 50px 0 0 40px;
+	width: 100px;
+	cursor: pointer;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+	#quote-box {
+		width: 90%;
+		margin: auto;
+	}
+}
